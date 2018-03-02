@@ -13,3 +13,5 @@ features:
 - This time round I did borrow the theory from someone else
 
 Note that it is still quite heavy on resources
+
+rvo, 2015
