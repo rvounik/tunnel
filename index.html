@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      /* this doubles the canvas so it acts as an upscaler really */
+    #myCanvas {
+      width: 640px;
+      height: 480px;
+    }
+  </style>
+</head>
+
+<body onload="preload();">
+
+<div class="wrapper">
+  <div class="canvasHolder">
+    <canvas id="myCanvas" width="320" height="240" style="background:#000;"></canvas>
+  </div>
+</div>
+
+<script type="text/javascript" src="lib/preloadjs-NEXT.min.js"></script>
+<script type="text/javascript" src="lib/easeljs-0.7.1.min.js"></script>
+<script type="text/javascript" src="js/tunnel.js"></script>
+
+</body>
+</html>
